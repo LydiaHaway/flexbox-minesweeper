@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(31, 26, 26);
+}
+
+h1 {
+  color: rgb(38, 92, 38);
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 150px;
+}
+
+main {
+  box-sizing: content-box;
+  max-width: 400px;
+  min-width: 400px;
+  max-height: 400px;
+  max-height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: wrap;
+  border: 5px double rgb(167, 21, 21);
+  box-shadow: 1px 1px 20px 10px rgb(105 12 12);
+}
+
+.box {
+  box-sizing: border-box;
+  background-color: lightgrey;
+  border: 1px solid rgb(167, 21, 21);
+  border-style: dotted;
+  min-width: 50px;
+  max-width: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  margin: 0 0;
+}
+
+.solid {
+  border: 2px outset rgb(167, 21, 21);
+  background-color: rgb(202, 171, 171);
+}
+
+.one,
+.two,
+.three,
+.bomb {
+  text-align: center;
+  margin-top: 15px;
+  opacity: 0;
+}
+
+.one {
+  color: rgb(34, 34, 150);
+}
+
+.two {
+  color: rgb(31, 129, 31);
+}
+
+.three {
+  color: rgb(105, 12, 12);
+}
+
+.bomb {
+  font-size: x-large;
+  margin-top: 10px;
+}
+
+.one:hover,
+.bomb:hover,
+.two:hover,
+.three:hover {
+  opacity: 1;
+}
+
+.box:hover {
+  background-color: rgb(202, 171, 171);
+}
